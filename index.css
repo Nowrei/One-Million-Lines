@@ -1,0 +1,76 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+
+
+    display: flex;
+    justify-content: center; 
+    
+    }
+
+    .jaina {
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    
+h2{
+    font-size: 30px;
+}
+h2{
+
+    color:#e74c3c;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+hr{
+
+    border-top: 1px solid #e74c3d;
+    width: 160px;
+    box-sizing: content-box;
+    height: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.arthas{
+
+    align-content: center;
+}
+.arthas a{
+
+    color: #e74c3c;
+    text-align: center;
+    align-content: center;
+}
+
+.arthas a:hover{
+
+    color: #e74c3c;
+    text-decoration: none;
+    opacity:-8;
+}
+
+.arthas p {
+    font-size: 21px;
+    font-weight: 300;
+}
+.arthas p {
+    margin: 0 0 10px;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        text-align: center;
+}
