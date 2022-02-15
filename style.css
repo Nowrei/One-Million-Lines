@@ -54,6 +54,18 @@ img.code {
 button:hover{
     background:red ;
 }
+footer{
+    height: 25vh;
+    background-color: #f74c3c;
+}
+.logofooter {
+    height: 75PX;
+    width: auto;
+    position: fixed;
+    bottom: 100px;
+    left: 250px;
+
+}
 @media (max-width: 1199px) { 
 
 	.jumbotron h1 {
