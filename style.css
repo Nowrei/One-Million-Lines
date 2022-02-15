@@ -1,0 +1,81 @@
+@font-face {
+    src: url("./font/Arvo-Regular.ttf");
+    font-family: Arvo;
+}
+.jumbotron {
+    text-align: center;
+    background-image: url(./img/hero_image.jpg);
+    background-size:100% 200%;
+    color: white;
+    height: 60vh;
+    margin: 0px 0px 30PX;
+    padding: 48px 30px;
+}
+h1 {
+    display:block;
+    font-size: 63px;
+    font-family: Arvo;
+    margin: 0 0 50px;
+}
+.container {
+    margin: 0px 66px;
+    padding: 0px 15px;
+}
+p {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 30px;
+}
+button {
+    font: 55px "helvetica neue", helvetica,arial,serif;
+    padding: 10px 16px;
+    background: #D9534F;
+    border-radius: 10px;
+    align-items: center;
+    color: white;
+}
+img.code {
+    width: 120PX;
+    margin-top: 70px;
+    position: FLEX;
+    align-items: center;
+    text-align: center;
+}
+button:hover{
+    background:red ;
+}
+@media (max-width: 1199px) { 
+
+	.jumbotron h1 {
+		font-size: 56px;
+		margin-bottom: 30px;
+	}
+
+}
+
+@media (max-width: 991px) { 
+
+	.jumbotron h1 {
+		font-size: 44px;
+	}
+
+	.jumbotron p {
+		padding: 0 10px;
+	}
+}
+
+@media (max-width: 767px) { 
+
+	.jumbotron h1 {
+		font-size: 24px;
+	}
+
+	.jumbotron p {
+		font-size: 16px;
+		padding: 0;
+	}
+
+	.btn {
+		font-size: 18px;
+	}
+}
