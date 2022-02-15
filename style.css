@@ -2,6 +2,10 @@
     src: url("./font/Arvo-Regular.ttf");
     font-family: Arvo;
 }
+body{
+    margin: 0;
+    padding: 0;
+}
 .jumbotron {
     text-align: center;
     background-image: url(./img/hero_image.jpg);
@@ -16,10 +20,16 @@ h1 {
     font-size: 63px;
     font-family: Arvo;
     margin: 0 0 50px;
+    letter-spacing: 5px;
+    font-weight: 300;
 }
 .container {
-    margin: 0px 66px;
-    padding: 0px 15px;
+    /*margin: 0px 66px;
+    padding: 0px 15px;*/
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 p {
     font-size: 30px;
