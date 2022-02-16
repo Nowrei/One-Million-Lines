@@ -62,8 +62,8 @@ img.logofooter {
     height: 50PX;
     width: auto;
     position: absolute;
-    left: 200px;
-    margin-top: 100px;
+    left: 75px;
+    margin-top: 125px;
 
 }
 @media (max-width: 1199px) { 
@@ -100,4 +100,17 @@ img.logofooter {
 	.btn {
 		font-size: 18px;
 	}
+    footer {
+        height: 45VH;
+    }
+    img.logofooter {
+        height: 50px;
+        margin-top: 140px;
+        margin-left: -50px;
+        
+    }
+    img.code {
+        width: 80px;
+        margin-top: 50px;
+    }
 }
