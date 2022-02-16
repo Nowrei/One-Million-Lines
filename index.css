@@ -22,8 +22,7 @@ div {
     }
 
     .jaina {
-        margin-right: 4vw;
-        margin-left: 4vw;
+
         text-align: center;
         display:grid;
         grid-column: 1f;
@@ -45,22 +44,25 @@ h2{
     text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 hr{
 
     border-top: 1px solid #e74c3d;
-    width: 160px;
+    width: 140px;
     box-sizing: content-box;
     height: 0;
     margin-right: auto;
     margin-left: auto;
     margin-top: 15px;
     margin-bottom: 20px;
+ 
 }
 
 
-a{
+.jaina a{
 
     color: #e74c3c;
     text-align: center;
@@ -69,7 +71,7 @@ a{
     margin-left: 5px;
 }
 
-a:hover{
+.jaina a:hover{
 
     color: #e74c3c;
     text-decoration: none;
@@ -87,7 +89,8 @@ p {
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 30px;
+    margin-bottom: 30px;
+
 }
 
 
@@ -96,8 +99,6 @@ p {
     background-color: #f5f5f5;
     display: grid;
     grid-column: 1fr;
-    margin-left: -80px;
-    margin-right: -80px;
     padding: 15px;
 
 }
@@ -109,6 +110,14 @@ p {
     padding-right: 40px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+}
+
+.tableau p{
+
+    line-height: 30px;
 }
 
 .tableau a {
@@ -116,12 +125,37 @@ p {
     border: solid 1px;
     border-radius: 1vh;
     background-color: white;
-    border-color: #f5f5f5;
+    border-color: rgb(136, 128, 128);
+    margin-left: auto;
+    margin-right: auto;
+    color: #e74c3c;
+
+    
+}
+
+.btn {
+
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    margin-top: 10px;
 }
 
 .tableau a:hover{
 
     background-color: #f5f5f5;
+    color: #e74c3c;
+   
 }
 
 .fa-stack{
@@ -134,7 +168,29 @@ p {
     vertical-align: middle;
     font-size: 4em;
     justify-content: center;
+    margin-bottom: 5vh;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.tableau h3{
+
+    color: #e74c3c;
+    font-family: 'Arvo', courier, serif;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size:26px;
+}
+
+
+.tableau h3 {
+
+    margin-left: auto;
+    margin-right:auto;    
+
+}
+
 @media screen and (min-width: 600px) and (max-width: 1024px) {
 
     div {
@@ -182,7 +238,7 @@ p {
     }
     
     
-    a{
+    .jaina a{
     
         color: #e74d3c;
         text-align: center;
@@ -191,13 +247,13 @@ p {
         margin-left: 5px;
     }
     
-    a:hover{
+    .jaina a:hover{
     
         color: #e74c3c;
         text-decoration: none;
     }
     
-    p {
+    .jaina p {
         font-size: 20px;
         text-align: center;
         line-height: 1em;
@@ -209,10 +265,51 @@ p {
         grid-template-columns: repeat(1, 1fr);
     }
     
+    .tableau {
+
+        display: grid;
+        grid-column: 1fr;
+        padding-left: 60px;
+        padding-right: 60gpx;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    
+    }
+    .tableau p{
+
+        line-height: 30px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .contenant {
+
+        background-color: #f5f5f5;
+        display: grid;
+        grid-column: 1fr;
+        padding: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+
+    .tableau h3 {
+
+        margin-left: auto;
+        margin-right:auto;    
+    
+    }
     
 }
 
-@media screen and (min-width: 320px) and (max-width: 600px) {
+@media screen and (min-width: 320px) and (max-width: 599px) {
+
+    .contenant p{
+
+        font-size: 19px;
+    }
 
     div {
 
@@ -261,7 +358,7 @@ p {
     }
     
     
-    a{
+    .jaina a{
     
         color: #e74c3c;
         text-align: center;
@@ -270,22 +367,56 @@ p {
         margin-left: 5px;
     }
     
-    a:hover{
+    .jaina a:hover{
     
         color: #e74c3c;
         text-decoration: none;
     
     }
     
-    p {
-        font-size: 16px;
+
+    .jaina p {
+
+        line-height: 25px;
+        font-size: 14px;
         text-align: center;
-        line-height: 1em;
-    }  
     
+    }
     .row {
 
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .tableau {
+
+        display: grid;
+        grid-column: 1fr;
+        margin-left: auto;
+        margin-right: auto;
+
+    
+    }
+
+    .tableau h3 {
+
+        margin-left: auto;
+        margin-right:auto;   
+        margin-top: none;
+        margin-bottom: 10px; 
+        padding-left: none;
+        padding-right: none;
+    
+    }
+    .contenant {
+
+        background-color: #f5f5f5;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .contenant p {
+
+        font-size: 14px;
     }
 }
