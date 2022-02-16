@@ -11,7 +11,7 @@ body{
     background-image: url(./img/hero_image.jpg);
     background-size:100% 200%;
     color: white;
-    height: 60vh;
+    height: 90vh;
     margin: 0px 0px 30PX;
     padding: 48px 30px;
 }
@@ -58,12 +58,12 @@ footer{
     height: 25vh;
     background-color: #f74c3c;
 }
-.logofooter {
-    height: 75PX;
+img.logofooter {
+    height: 50PX;
     width: auto;
-    position: fixed;
-    bottom: 100px;
-    left: 250px;
+    position: absolute;
+    left: 200px;
+    margin-top: 100px;
 
 }
 @media (max-width: 1199px) { 
