@@ -3,14 +3,14 @@
     .jaina {
 
         text-align: center;
-        display:grid;
+        display: grid;
         grid-column: 1f;
         line-height: 1em;
         word-spacing: 1px;
         padding-left: 15px;
         padding-right: 15px;
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-top: 20px;
+        padding-bottom: 5px;
     }
     
 h2{

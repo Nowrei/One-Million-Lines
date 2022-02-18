@@ -9,11 +9,12 @@ body{
 .jumbotron {
     text-align: center;
     background-image: url(./img/hero_image.jpg);
-    background-size:cover;
+    background-size: inherit;
+    background-position-x: -306px;
     color: white;
-    height: 90vh;
+    height: 80vh;
     margin: 0px 0px 30PX;
-    padding: 48px 30px;
+    padding: 40px 80px;
 }
 h1 {
     display:block;
@@ -70,11 +71,13 @@ button {
 }
 
 img.code {
-    width: 120PX;
+    width: 90PX;
     margin-top: 55px;
     position: FLEX;
     align-items: center;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 button:hover{
     background:red ;
