@@ -9,7 +9,7 @@ body{
 .jumbotron {
     text-align: center;
     background-image: url(./img/hero_image.jpg);
-    background-size:100% 200%;
+    background-size:cover;
     color: white;
     height: 90vh;
     margin: 0px 0px 30PX;
@@ -31,19 +31,44 @@ h1 {
     margin-right: auto;
 
 }
+
 p {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px 0px 30px;
 }
 button {
-    font: 55px "helvetica neue", helvetica,arial,serif;
+    font: 100px "helvetica neue", helvetica,arial,serif;
     padding: 10px 16px;
     background: #D9534F;
     border-radius: 10px;
     align-items: center;
     color: white;
+    width: 199px;
+    height: 67px;
+    
 }
+
+.jumbotron .btn{
+
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 30px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 img.code {
     width: 120PX;
     margin-top: 55px;
