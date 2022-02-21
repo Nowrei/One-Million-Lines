@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
 }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 .nav {
   height: 50px;
   width: 100%;

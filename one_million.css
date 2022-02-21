@@ -10,9 +10,9 @@ body{
     text-align: center;
     background-image: url(./img/hero_image.jpg);
     background-size: inherit;
-    background-position-x: -524px;
+    background-position-x: -402px;
     color: white;
-    height: 80vh;
+    height: 75vh;
     margin: 0px 0px 30PX;
     padding: 40px 80px;
 }
@@ -71,8 +71,8 @@ button {
 }
 
 img.code {
-    width: 90PX;
-    margin-top: 55px;
+    width: 80PX;
+    margin-top: 30px;
     position: FLEX;
     align-items: center;
     text-align: center;
@@ -142,27 +142,25 @@ img.logofooter {
 @media  screen and (min-width: 320px) and (max-width: 599px) { 
 
 	.jumbotron {
-
         text-align: center;
-    background-image: url(./img/hero_image.jpg);
-    background-size: inherit;
-    background-position-x: -524px;
-    color: white;
-    height: 76vh;
-    margin: 0px 0px 30PX;
-    padding: 40px 80px;
+        background-image: url(./img/hero_image.jpg);
+        background-size: inherit;
+        background-position-x: -524px;
+        color: white;
+        height: 63vh;
+        margin: 0px 0px 30PX;
+        padding: 40px 80px;
     }
     
     
     
-    
     .jumbotron h1 {
-		font-size: 24px;
+		font-size: 18px;
 	}
 
 	.jumbotron p {
-		font-size: 16px;
-		padding: 0;
+		font-size: 17px;
+        padding: 0;
 	}
 
 	.btn {
@@ -180,8 +178,52 @@ img.logofooter {
     img.code {
         width: 80px;
         margin-top: 50px;
-        width: 80px;
+        width: 65px;
         margin-top: 20px;
     
     }
+
+    button {
+        font: 100px "helvetica neue", helvetica,arial,serif;
+        padding: 10px 16px;
+        background: #D9534F;
+        border-radius: 10px;
+        align-items: center;
+        color: white;
+        width: 133px;
+        height: 50px;
+    }
+
+    .jumbotron .btn {
+        display: inline-block;
+        margin-bottom: 0;
+        text-align: center;
+        vertical-align: middle;
+        cursor: pointer;
+        background-image: none;
+        border: 1px solid transparent;
+        white-space: nowrap;
+        padding: 5px 15px;
+        font-size: 15px;
+        line-height: 1.42857143;
+        border-radius: 4px;
+        margin-top: 2px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+h1 {
+    display: block;
+    font-size: 63px;
+    font-family: Arvo;
+    margin: 0px 0 25px;
+    letter-spacing: 5px;
+   
+}
+
+p {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 11px;
+}
 }
