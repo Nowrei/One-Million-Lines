@@ -62,16 +62,18 @@ button {
     border: 1px solid transparent;
     white-space: nowrap;
     padding: 6px 12px;
-    font-size: 30px;
+    font-size: 36px;
     line-height: 1.42857143;
     border-radius: 4px;
     margin-top: 10px;
     margin-right: auto;
     margin-left: auto;
+    width: 245px;
+    height: 73px;
 }
 
 img.code {
-    width: 80PX;
+    width: 90px;
     margin-top: 30px;
     position: FLEX;
     align-items: center;
