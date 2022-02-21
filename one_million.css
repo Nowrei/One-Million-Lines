@@ -9,11 +9,12 @@ body{
 .jumbotron {
     text-align: center;
     background-image: url(./img/hero_image.jpg);
-    background-size:cover;
+    background-size: inherit;
+    background-position-x: -524px;
     color: white;
-    height: 90vh;
+    height: 80vh;
     margin: 0px 0px 30PX;
-    padding: 48px 30px;
+    padding: 40px 80px;
 }
 h1 {
     display:block;
@@ -70,11 +71,13 @@ button {
 }
 
 img.code {
-    width: 120PX;
+    width: 90PX;
     margin-top: 55px;
     position: FLEX;
     align-items: center;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 button:hover{
     background:red ;
@@ -91,27 +94,7 @@ img.logofooter {
     margin-top: 125px;
 
 }
-@media (max-width: 1199px) { 
-
-	.jumbotron h1 {
-		font-size: 56px;
-		margin-bottom: 30px;
-	}
-
-}
-
-@media (max-width: 991px) { 
-
-	.jumbotron h1 {
-		font-size: 44px;
-	}
-
-	.jumbotron p {
-		padding: 0 10px;
-	}
-}
-
-@media (max-width: 767px) { 
+@media  screen and (min-width: 600px) and (max-width: 1024px) { 
 
 	.jumbotron h1 {
 		font-size: 24px;
@@ -137,5 +120,57 @@ img.logofooter {
     img.code {
         width: 80px;
         margin-top: 50px;
+        width: 80px;
+        margin-top: 70px;
+    }
+
+}
+
+
+
+@media  screen and (min-width: 320px) and (max-width: 599px) { 
+
+	.jumbotron {
+
+        text-align: center;
+    background-image: url(./img/hero_image.jpg);
+    background-size: inherit;
+    background-position-x: -524px;
+    color: white;
+    height: 76vh;
+    margin: 0px 0px 30PX;
+    padding: 40px 80px;
+    }
+    
+    
+    
+    
+    .jumbotron h1 {
+		font-size: 24px;
+	}
+
+	.jumbotron p {
+		font-size: 16px;
+		padding: 0;
+	}
+
+	.btn {
+		font-size: 18px;
+	}
+    footer {
+        height: 45VH;
+    }
+    img.logofooter {
+        height: 50px;
+        margin-top: 140px;
+        margin-left: -50px;
+        
+    }
+    img.code {
+        width: 80px;
+        margin-top: 50px;
+        width: 80px;
+        margin-top: 20px;
+    
     }
 }
