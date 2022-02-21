@@ -17,7 +17,7 @@ body{
     padding: 40px 80px;
 }
 h1 {
-    display:block;
+    display:flex;
     font-size: 63px;
     font-family: Arvo;
     margin: 0 0 50px;

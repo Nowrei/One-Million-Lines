@@ -4,15 +4,16 @@
 }
 
 .sticky {
-  position: -webkit-sticky;
+	position: -webkit-sticky;
 	position: sticky;
-  width: 100%;
+	top: 0;
 }
 .nav {
-  height: 50px;
+
   width: 100%;
   background-color: #000000;
-  position: relative;
+  position: sticky;
+  z-index: 900;
 }
 
 .nav > .nav-header {
