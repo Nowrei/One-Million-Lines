@@ -96,6 +96,17 @@ img.logofooter {
 }
 @media  screen and (min-width: 600px) and (max-width: 1024px) { 
 
+
+    .jumbotron {
+        text-align: center;
+        background-image: url(./img/hero_image.jpg);
+        background-size: inherit;
+        background-position-x: -524px;
+        color: white;
+        height: 67vh;
+        margin: 0px 0px 30PX;
+        padding: 40px 80px;
+    }
 	.jumbotron h1 {
 		font-size: 24px;
 	}
