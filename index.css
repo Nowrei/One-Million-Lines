@@ -7,10 +7,11 @@
         grid-column: 1f;
         line-height: 1em;
         word-spacing: 1px;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 0;
+        padding-bottom: 0px;
+        
     }
     
 h2{
@@ -69,6 +70,7 @@ p {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-bottom: 30px;
+    margin-top: 20px;
 
 }
 
@@ -77,19 +79,36 @@ p {
 
     background-color: #f5f5f5;
     display: grid;
-    grid-column: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     padding: 15px;
 
+
+}
+
+.contenant h2 {
+
+    color: #e74c3c;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -18px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contenant hr {
+
+    margin-top: 8px;
 }
 .tableau {
 
     display: grid;
     grid-column: 1fr;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px;
+    margin-top: -15px;
     margin-bottom: 30px;
 
 }
@@ -127,7 +146,7 @@ p {
     font-size: 14px;
     line-height: 1.42857143;
     border-radius: 4px;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 .tableau a:hover{
@@ -157,18 +176,11 @@ p {
     color: #e74c3c;
     font-family: 'Arvo', courier, serif;
     text-transform: uppercase;
-    margin-top: 10px;
-    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right:auto;  
     font-size:26px;
 }
 
-
-.tableau h3 {
-
-    margin-left: auto;
-    margin-right:auto;    
-
-}
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
 
