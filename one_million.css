@@ -181,19 +181,19 @@ img.logofooter {
         background-size: inherit;
         background-position-x: -524px;
         color: white;
-        height: 50vh;
-        margin: 0px 0px 30PX;
+        height: 77vh;
+        padding: 10px 35px;
     }
     
     
     
     .jumbotron h1 {
-		font-size: 30px;
+        font-size: 25px;
 	}
 
 	.jumbotron p {
-        font-size: 17px;
-        line-height: 23px;
+        font-size: 15px;
+        line-height: 20px;
         padding: 0px 31px;
 	}
 
@@ -252,10 +252,9 @@ h1 {
     font-size: 63px;
     font-family: Arvo;
     margin: 0px 0 25px;
-    letter-spacing: 5px;
-    padding: 15px 55px;
-   
+    padding: 8px 55px;
 }
+
 
 p {
     font-size: 30px;

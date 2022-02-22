@@ -303,13 +303,13 @@ p {
             margin-right: auto;
             margin-left: auto;
             text-align: center;
-            display:grid;
+            display: grid;
             grid-column: 1f;
             line-height: 1em;
             word-spacing: 1px;
             padding-left: 10px;
             padding-right: 10px;
-            padding-top: 30px;
+            padding-top: 10px;
             padding-bottom: 30px;
         }
         
@@ -318,10 +318,10 @@ p {
     }
     h2{
     
-        color:#e74c3c;
+        color: #e74c3c;
         text-transform: uppercase;
         text-align: center;
-        margin-top: 20px;
+        margin-top: 0px;
         margin-bottom: 10px;
     }
     
