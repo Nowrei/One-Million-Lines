@@ -256,9 +256,8 @@ p {
 
         display: grid;
         grid-column: 1fr;
-        padding-left: 60px;
-        padding-right: 60gpx;
-        margin-left: auto;
+        padding-left: 10px;
+        padding-right: 10px;
         margin-right: auto;
         margin-top: 30px;
         margin-bottom: 30px;
@@ -285,7 +284,8 @@ p {
     .tableau h3 {
 
         margin-left: auto;
-        margin-right:auto;    
+        margin-right:auto;  
+        margin-bottom: 10px;  
     
     }
     

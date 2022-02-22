@@ -107,22 +107,49 @@ img.logofooter {
 
 
     .jumbotron {
-        text-align: center;
-        background-image: url(./img/hero_image.jpg);
-        background-size: inherit;
-        background-position-x: -524px;
-        color: white;
-        height: 67vh;
-        margin: 0px 0px 30PX;
-        padding: 40px 80px;
+     text-align: center;
+    background-image: url(./img/hero_image.jpg);
+    background-size: inherit;
+    background-position-x: 0px;
+    color: white;
+    height: 83vh;
+    margin: 0px 0px 30PX;
+    padding: 30px 29px;
     }
+    
 	.jumbotron h1 {
-		font-size: 24px;
-	}
+
+		font-size: 45px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+ 
+.jumbotron .btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 36px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 231px;
+    height: 73px;
+}
 
 	.jumbotron p {
-		font-size: 16px;
-		padding: 0;
+        font-size: 20px;
+        line-height: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
 	}
 
 	.btn {
@@ -139,11 +166,9 @@ img.logofooter {
     }
     img.code {
         width: 80px;
-        margin-top: 50px;
-        width: 80px;
-        margin-top: 70px;
-    }
+        margin-top: 35px;
 
+}
 }
 
 
@@ -164,12 +189,13 @@ img.logofooter {
     
     
     .jumbotron h1 {
-		font-size: 18px;
+		font-size: 30px;
 	}
 
 	.jumbotron p {
-		font-size: 17px;
-        padding: 0;
+        font-size: 17px;
+        line-height: 23px;
+        padding: 0px 31px;
 	}
 
 	.btn {
@@ -185,10 +211,8 @@ img.logofooter {
         
     }
     img.code {
-        width: 80px;
-        margin-top: 50px;
-        width: 85px;
-        margin-top: 30px;
+ width: 85px;
+    margin-top: 30px;
     
     }
 
@@ -230,6 +254,7 @@ h1 {
     font-family: Arvo;
     margin: 0px 0 25px;
     letter-spacing: 5px;
+    padding: 15px 55px;
    
 }
 
