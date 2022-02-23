@@ -1,0 +1,264 @@
+@font-face {
+    src: url("./font/Arvo-Regular.ttf");
+    font-family: Arvo;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.jumbotron {
+    text-align: center;
+    background-image: url(./img/hero_image.jpg);
+    background-size: initial;
+    background-position-x: 0px;
+    color: white;
+    height: 75vh;
+    margin: 0px 0px 30PX;
+    padding: 40px 80px;
+}
+h1 {
+    display:flex;
+    font-size: 63px;
+    font-family: Arvo;
+    margin: 0 0 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-weight: 300;
+}
+.container {
+    /*margin: 0px 66px;
+    padding: 0px 15px;*/
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.container p{
+
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+p {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 30px;
+}
+button {
+    font: 100px "helvetica neue", helvetica,arial,serif;
+    padding: 10px 16px;
+    background: #D9534F;
+    border-radius: 10px;
+    align-items: center;
+    color: white;
+    width: 199px;
+    height: 67px;
+    
+}
+
+.jumbotron .btn{
+
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 36px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 245px;
+    height: 73px;
+}
+
+img.code {
+    width: 90px;
+    margin-top: 30px;
+    position: FLEX;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+button:hover{
+    background:red ;
+}
+footer{
+    height: 25vh;
+    background-color: #f74c3c;
+}
+img.logofooter {
+    height: 50PX;
+    width: auto;
+    position: absolute;
+    left: 75px;
+    margin-top: 125px;
+
+}
+@media  screen and (min-width: 600px) and (max-width: 1024px) { 
+
+
+    .jumbotron {
+     text-align: center;
+    background-image: url(./img/hero_image.jpg);
+    background-size: inherit;
+    background-position-x: 0px;
+    color: white;
+    height: 83vh;
+    margin: 0px 0px 30PX;
+    padding: 30px 29px;
+    }
+    
+	.jumbotron h1 {
+
+		font-size: 45px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+ 
+.jumbotron .btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 36px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 231px;
+    height: 73px;
+}
+
+	.jumbotron p {
+        font-size: 20px;
+        line-height: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+	}
+
+	.btn {
+		font-size: 18px;
+	}
+    footer {
+        height: 45VH;
+    }
+    img.logofooter {
+        height: 50px;
+        margin-top: 140px;
+        margin-left: -50px;
+        
+    }
+    img.code {
+        width: 90px;
+        margin-top: 25px;
+
+}
+}
+
+
+
+@media  screen and (min-width: 320px) and (max-width: 599px) { 
+
+	.jumbotron {
+        text-align: center;
+        background-image: url(./img/hero_image.jpg);
+        background-size: inherit;
+        background-position-x: -524px;
+        color: white;
+        height: 62vh;
+        padding: 10px 35px;
+    }
+    
+    
+    
+    .jumbotron h1 {
+        font-size: 25px;
+	}
+
+	.jumbotron p {
+        font-size: 15px;
+        line-height: 20px;
+        padding: 0px 31px;
+	}
+
+	.btn {
+		font-size: 18px;
+	}
+    footer {
+        height: 45VH;
+    }
+    img.logofooter {
+        height: 50px;
+        margin-top: 140px;
+        margin-left: -50px;
+        
+    }
+    img.code {
+ width: 85px;
+    margin-top: 30px;
+    
+    }
+
+    button {
+        font: 100px "helvetica neue", helvetica,arial,serif;
+        padding: 10px 16px;
+        background: #D9534F;
+        border-radius: 10px;
+        align-items: center;
+        color: white;
+        width: 133px;
+        height: 50px;
+    }
+
+    .jumbotron .btn {
+
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 5px 15px;
+    font-size: 20px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 142px;
+    height: 46px;
+    }
+
+h1 {
+    display: block;
+    font-size: 63px;
+    font-family: Arvo;
+    margin: 0px 0 25px;
+    padding: 8px 55px;
+}
+
+
+p {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 11px;
+}
+}
