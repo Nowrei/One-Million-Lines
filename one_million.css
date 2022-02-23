@@ -165,8 +165,8 @@ img.logofooter {
         
     }
     img.code {
-        width: 80px;
-        margin-top: 35px;
+        width: 90px;
+        margin-top: 25px;
 
 }
 }
@@ -181,7 +181,7 @@ img.logofooter {
         background-size: inherit;
         background-position-x: -524px;
         color: white;
-        height: 77vh;
+        height: 62vh;
         padding: 10px 35px;
     }
     
